@@ -1,0 +1,37 @@
+{
+  "name": "lft",
+  "displayName": "lft",
+  "description": "LFT syntax highlighting",
+  "version": "1.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "publisher": "00-uno-00",
+  "homepage": "https://github.com/00-uno-00/LFT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/00-uno-00/LFT"
+  },
+  "bugs": {"url": "https://github.com/00-uno-00/LFT/issues"},
+  "icon": "logo.png",
+  "contributes": {
+    "languages": [{
+      "id": "lft",
+      "aliases": ["LFT", "lft"],
+      "extensions": [".lft"],
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "dark": "logo.png",
+        "light": "logo.png"
+      }
+    }],
+    "grammars": [{
+      "language": "lft",
+      "scopeName": "source.lft",
+      "path": "./syntaxes/lft.tmLanguage.json"
+    }]
+  }
+}
