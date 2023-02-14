@@ -2,7 +2,7 @@
   "name": "lft",
   "displayName": "lft",
   "description": "LFT syntax highlighting",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.74.0"
   },
